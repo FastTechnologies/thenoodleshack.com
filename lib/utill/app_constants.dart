@@ -123,7 +123,7 @@ class AppConstants {
   static const String TOPIC = 'notify';
   static const String ON_BOARDING_SKIP = 'on_boarding_skip';
   static const String PLACE_ORDER_DATA = 'place_order_data';
-  static const int restaurantId = 117;
+  static const int restaurantId = 122;
   static const String country_code = '+1';
   static const String phone_form = "(###) ###-####";
   static const String phone_form_hint = '(111) 111-1111';
