@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScaleCafe</string>
+    <string name="facebook_app_id">568477475248461</string>
+    <string name="fb_login_protocol_scheme">fb568477475248461</string>
+    <string name="facebook_client_token">f722940dca70b057424a35c496bcb5e7</string>
+</resources>

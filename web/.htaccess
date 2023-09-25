@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+  SetEnvIf Origin "http(s)?://(www.)?(localhost:55538|The Nooideles Hack.cafescale.com)$" AccessControlAllowOrigin=$0
+  Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+  Header always set Access-Control-Allow-Methods: "GET,POST,PUT,DELETE,OPTIONS"
+</IfModule>
