@@ -329,6 +329,7 @@ class _SpecialOfferProductCardState extends State<SpecialOfferProductCard> {
                                       '${widget.offerProduct.name}',
                                       style: rubikBold.copyWith(
                                           fontSize: Dimensions.FONT_SIZE_SMALL),
+                                      maxLines:2
                                     ),
                                     SizedBox(
                                       height: 4,
